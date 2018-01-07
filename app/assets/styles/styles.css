@@ -1,0 +1,75 @@
+@import "base/_global";
+@import "base/_variables";
+@import "base/_mixins";
+@import "modules/_modal";
+@import "modules/_tooltip";
+@import "modules/_header";
+@import "modules/_btn";
+@import "modules/_row";
+@import "modules/_hotspots";
+@import "modules/_custommodal";
+
+
+.map_container {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+
+.pump_station {
+  position: absolute;
+  top: 0;
+}
+
+.pump_container_fix {
+  margin: 0 0.5%;
+}
+
+.popout-container {
+  position: relative;
+  width: 93%;
+  bottom: 5rem;
+}
+
+.map {
+  padding-top: 2rem;
+}
+
+.h3__cabinet {
+  padding-top: 1.75rem;
+  color: #2F2F2F;
+  font-size: 1.2rem;
+}
+
+.modal__img {
+  max-width: 100%;
+}
+
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+.modal-title .map {
+  position: relative;
+  width: 100%;
+}
+#mapster_wrap_0 {
+  margin: 0 auto;
+}
+
+/*video {
+  width: 100% !important;
+  height: 100% !important;
+}*/
+
+.fa-times {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-open, .modal-open .navbar-fixed-top {
+  margin-right: 0 !important;
+}
