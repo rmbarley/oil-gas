@@ -4,6 +4,15 @@
   top: 0;
   position: absolute;
 }
+#oil_rig {
+  top: 15%;
+  left: 47%;
+}
+#shaker_table {
+  left: 58%;
+  top: 65%;
+}
+
 .dot {
   &--settling-basin {
     width: 20px;

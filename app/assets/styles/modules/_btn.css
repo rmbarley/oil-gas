@@ -56,19 +56,4 @@
       color: $primaryGrey;
     }
   }
-  &__link {
-    letter-spacing: 0.15rem;
-    height: 3rem;
-    margin-left: 9rem;
-    margin-top: 2rem;
-    a {
-      color: $primaryGrey;
-    }
-    &:hover {
-      background-color: $primaryGrey
-      a {
-        color: white;
-      }
-    }
-  }
 }

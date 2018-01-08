@@ -300,17 +300,6 @@ html {
       color: #2F2F2F;
     }
 
-.btn__link {
-    letter-spacing: 0.15rem;
-    height: 3rem;
-    margin-left: 9rem;
-    margin-top: 2rem;
-  }
-
-.btn__link a {
-      color: #2F2F2F;
-    }
-
 .row {
   
 }
@@ -323,13 +312,13 @@ html {
 }
 
 #oil_rig {
-  top: 20.5%;
+  top: 15%;
   left: 47%;
 }
 
 #shaker_table {
-  top: 56%;
-left: 56.5%;
+  left: 58%;
+  top: 65%;
 }
 
 .dot--settling-basin {
