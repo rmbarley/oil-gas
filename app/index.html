@@ -25,7 +25,7 @@
       <img src="./assets/images/oil_map.jpg" usemap="#waste" id="main_map" alt="" />
       <map name="waste">
       </map>
-      <div class="hotspot" id="oil_rig" onclick=" setTimeout(function () { toggleView(rig_view); }, 700);">
+      <div class="hotspot zoomTarget" id="oil_rig" data-targetsize="0.05" data-duration="600" onclick=" setTimeout(function () { toggleView(rig_view); }, 800);">
           <div class="pulse pulse--settling-basin"></div>
           <div class="dot dot--settling-basin"></div>
         </div>
@@ -41,7 +41,7 @@
         </div>
       </div>
       <img src="./assets/images/oilrig.jpg" id="oil_rig_img" usemap="#rig" alt="" class="img-responsive" />
-      <div class="hotspot" id="shaker_table" data-toggle="modal" data-target="#shakerTableModal">
+      <div class="hotspot modal-spot" id="shaker_table" data-toggle="modal" data-target="#shakerTableModal">
         <div class="pulse pulse--settling-basin"></div>
         <div class="dot dot--settling-basin"></div>
       </div>

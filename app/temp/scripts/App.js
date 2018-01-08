@@ -95,6 +95,14 @@ $(window).on('hidden.bs.modal', function (e) {
   window.scrollTo(0,0);
 });
 
+$('.modal-spot').on('click', function(){
+
+	$(this).unbind('click.zoomNotClickable');
+
+  $("#shakerTableModal").modal();
+
+})
+
 
 /***/ })
 /******/ ]);
